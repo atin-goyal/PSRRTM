@@ -1,0 +1,2 @@
+Customer Name:comma separated list of domain names
+Test:*

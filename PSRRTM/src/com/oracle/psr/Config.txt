@@ -1,0 +1,12 @@
+#Config.txt for PSRRTM app. No spaces after :
+CMS Endpoint:*
+CMS Username:*
+CMS Password:*
+ObjectStore Endpoint:*
+ObjectStore Username:somebody@somewhere.com
+ObjectStore Password:****
+IP of current machine:*.*.*.*
+Any free port on the current machine:8988
+#Threshold definitions: Threshold: metric,value,period (PT5M, PT10M etc)
+Threshold:compute.lvm.MEMORY.CURRENT_PERCENT,2,PT15M
+Threshold:compute.lvm.CPU.PERCENT,10,PT15M
